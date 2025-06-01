@@ -24,7 +24,7 @@ body {
   padding: 20px;
   box-sizing: border-box;
   overflow-y: auto;
-  border-right: 2px solid var(--secondary-hover);
+  border-right: 2px solid var(--primary-hover);
 }
 
 #sidebar h2 {
