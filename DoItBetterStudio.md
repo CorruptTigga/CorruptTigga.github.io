@@ -14,23 +14,44 @@ This hub showcases immersive game worlds, innovative AI-driven simulations, and 
 
 ## 🎨 Games That Push Boundaries
 
-### Echo  
-![Echo Game Art](echo-art.png)  
+### Echo
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; align-items: center; margin: 2rem 0;">
+
 A Viking-era open-world narrative RPG that blends brutal realism with cutting-edge AI. Echo simulates living NPCs with memories, emotions, and evolving family lines. Experience emergent storytelling shaped by your choices in a harsh, dynamic world.
 
-### Blood Runs Red  
-![Blood Runs Red Concept Art](blood-art.png)  
+![Echo Concept Art](echo.png)
+
+![Echo Concept Art](echo.png)
+</div>
+
+### Blood Runs Red
+
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; align-items: center; margin: 2rem 0;">
+
+![Blood Runs Red Concept Art](blood-art.png)
+
+![Blood Runs Red Concept Art](blood-art.png)
+
+<div>
 A gritty 16-player co-op survival FPS set in an alternate 1989 where the USSR invades the US. Inspired by *Red Dawn*, it features authentic period weapons, dynamic missions, and deep narrative about young Americans fighting for their homeland.
 
 *Full details and dev logs available on the [Blood Runs Red project page](BloodRunsRed.md).*
+</div>
+
+</div>
 
 ---
 
 ## 🛠 Modding Made Easy with Xeno
 
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; align-items: center; margin: 2rem 0;">
+
 ![Xeno Framework Logo](xeno-logo.png)  
 
 Xeno is a custom scripting language designed for deep engine integration with a secure sandbox environment. It empowers modders with clean, scalable tools to create new gameplay mechanics, content, and experiences.
+
+![Xeno Framework Logo](xeno-logo.png)  
+</div>
 
 ---
 
