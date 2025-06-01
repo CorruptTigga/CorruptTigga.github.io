@@ -75,7 +75,7 @@ linksContainer.addEventListener("click", (e) => {
 });
 
 // Load initial overview
-loadMarkdown("overview.md");
+loadMarkdown("DoItBetterStudio.md");
 
 // Fetch and setup Fuse.js search index
 let fuse;
