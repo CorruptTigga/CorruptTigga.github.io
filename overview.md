@@ -1,107 +1,52 @@
-# Echo: Core Simulation Concepts (Overview)
+<div style="text-align: center; margin: 2rem 0;">
 
-This document outlines the high-level systems and goals behind **Echo**, a Viking-era, text-driven, open-world life simulation game designed for gritty realism and deep NPC simulation. Each subsequent page will provide a detailed breakdown of individual components.
+### Welcome to DoItBetter Studio
 
----
+<img src="logo.png" alt="DoItBetter Studio Logo" style="max-width: 100%; height: auto;" />
 
-## 1. Game Overview
+Welcome to **DoItBetter Studio**, the indie game development studio founded by Anthony T. Lawrence.  
+Our motto:  
+> **"Strive for more than just Perfection."** 
 
-- **Title:** Echo  
-- **Genre:** Text-based open-world life simulation with RPG elements  
-- **Time Period:** Viking era with some modern ethical considerations  
-- **Perspective:** Top-down 2D tile-based engine (Hex/Isometric/Square options)  
-- **Graphics:** 2D tilemaps beneath the text log/UI  
-- **Input Method:** Natural language commands from the player  
-- **LLM Role:** Acts as Game Master (GM) responsible for simulation logic and narrative consistency  
+This hub showcases immersive game worlds, innovative AI-driven simulations, and powerful modding tools designed for creators and players alike.
 
 ---
 
-## 2. World & Cultures
+## 🎨 Games That Push Boundaries
 
-- **Hand-crafted World Map:** Built using Tiled  
-- **Cultural Detail:** Predefined cultures, factions, cities, and countries; dynamically assigned NPCs  
-- **Region Scope:** Initially Northern Europe, potentially expanding to all of Europe  
-- **Diversity:** Ethnic and cultural diversity modeled with historical care (e.g., languages, customs, factional conflicts)  
+### Echo  
+![Echo Game Art](echo-art.png)  
+A Viking-era open-world narrative RPG that blends brutal realism with cutting-edge AI. Echo simulates living NPCs with memories, emotions, and evolving family lines. Experience emergent storytelling shaped by your choices in a harsh, dynamic world.
 
----
+### Blood Runs Red  
+![Blood Runs Red Concept Art](blood-art.png)  
+A gritty 16-player co-op survival FPS set in an alternate 1989 where the USSR invades the US. Inspired by *Red Dawn*, it features authentic period weapons, dynamic missions, and deep narrative about young Americans fighting for their homeland.
 
-## 3. NPC Simulation
-
-- **Organic Generation:** No predefined NPCs; all are generated procedurally  
-- **Complex Systems:**  
-  - Dynamic relationships (inter-NPC and NPC-to-faction)  
-  - Emotional states and memory  
-  - Skills and stats  
-  - Motivations, opinions, and behavioral modeling  
-- **Pregnancy and Repopulation:** Full lifecycle simulation, including age, fertility, death, and family dynamics  
+*Full details and dev logs available on the [Blood Runs Red project page](BloodRunsRed.md).*
 
 ---
 
-## 4. Player Design
+## 🛠 Modding Made Easy with Xeno
 
-- **No Internal Morality System:** Player does not have simulated emotions or motivations  
-- **External Reactions Only:** NPCs and factions respond dynamically based on the player's actions and choices  
-- **Full Freedom:** The game simulates consequences and reputation based solely on external world perception  
+![Xeno Framework Logo](xeno-logo.png)  
 
----
-
-## 5. Game Systems
-
-- **Skill System:** Based on DnD 5e with static health pools (no health scaling)  
-- **Dice Rolls:** Used for randomization of actions and skill checks  
-- **Combat & Raiding:** Tactical simulation with varying NPC responses (fight, flee, assist)  
-- **Dialogue & Action Flow:** Narratively-driven text parser with action tagging (e.g., *draws sword* “Back off!”)  
+Xeno is a custom scripting language designed for deep engine integration with a secure sandbox environment. It empowers modders with clean, scalable tools to create new gameplay mechanics, content, and experiences.
 
 ---
 
-## 6. Time Advancement
+## ⚙️ Our Philosophy
 
-- **Player-Driven Time:** World state updates only when player inputs are made (not just actions but also dialogue)  
-- **Simulation Steps:** Each input advances the simulation clock  
-- **Persistence:** Full world state saving via JSON or binary, including both short-term (daily interactions) and long-term (faction creation, land ownership, etc.) memories  
+At DoItBetter Studio, we build games and tools that don’t just tell stories — they *live* them. We blend technical innovation with rich narratives and community-driven modding ecosystems to create worlds that react and evolve naturally.
 
----
-
-## 7. Ethics & Content Boundaries
-
-- **Realism with Responsibility:** Echo aims for authenticity while adhering to strict ethical standards  
-- **Banned Content:** No illegal content (e.g., underage marriage consummation, graphic exploitation)  
-- **Morality Warnings:** Prominent content warnings upon game start and on store pages  
-- **Historical vs Modern Ethics:** Historical references (e.g., slavery, arranged marriage) handled with nuance and care  
-- **Slavery:** Implemented only in a historical context (e.g., Viking POWs), never racially motivated  
+We are passionate about pushing the boundaries of indie game development — always striving to *be more than just perfect*.
 
 ---
 
-## 8. LLM Role & Memory
+## ⚠️ Disclaimer
 
-- **Memory System:** LLM utilizes structured JSON/binary memory banks for simulation and interaction  
-- **Long-Term Memory:** Significant game events, land ownership, factional politics  
-- **Short-Term Memory:** Recent events, NPC dialogue context, recent emotional triggers  
+**DoItBetter Studio** and associated trademarks are currently unregistered.  
+LLC formation and trademark registrations are planned.  
+Use of these names and marks is subject to change.  
 
----
-
-## 9. Modularity & Debugging
-
-- **Debug Tools:** Dev console with ImGui for immediate testing  
-- **Simulation Tools:** Potential for rollback, time-travel, and backups  
-- **UI Access:** Players can use text commands to open stat windows, inventories, and entity information  
-
----
-
-## Future Detailed Pages
-
-The following pages will each focus on a single topic with deep technical and conceptual dives:
-
-- **Page 1:** NPC Generation and Personality Simulation  
-- **Page 2:** Player Interaction and Narrative Interface  
-- **Page 3:** Time System and Simulation Step Handling  
-- **Page 4:** Emotional Modeling and Memory System  
-- **Page 5:** Pregnancy and Generational Simulation  
-- **Page 6:** Faction and Culture Systems  
-- **Page 7:** Combat, Skills, and Randomization  
-- **Page 8:** Content Boundaries and Ethical Guardrails  
-- **Page 9:** Save/Load System and World State Persistence  
-- **Page 10:** LLM Integration and Role as Game Master  
-
----
-
+Thank you for your support and understanding.
+</div>
