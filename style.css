@@ -16,6 +16,30 @@ body {
   height: 100vh;
 }
 
+body.echo {
+  --background-color: #6ba8bb;
+  --primary-color: #dcdcdc;
+  --primary-hover: #bcbcbc;
+  --secondary-color: #30495d;
+  --secondary-hover: #021825;
+}
+
+body.blood {
+  --background-color: #150b0d;
+  --primary-color: #e7e7e7;
+  --primary-hover: #cfcfcf;
+  --secondary-color: #901010;
+  --secondary-hover: #5a0000;
+}
+
+body.xeno {
+  --background-color: #001013;
+  --primary-color: #bfeff7;
+  --primary-hover: #9ddde6;
+  --secondary-color: #11777e;
+  --secondary-hover: #05545c;
+}
+
 #sidebar {
   width: 280px;
   min-width: 280px;
@@ -167,4 +191,22 @@ body {
   .grid-images {
     flex-direction: column;
   }
+}
+.dropdown-header {
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #bbb;
+  font-weight: bold;
+}
+.dropdown-items {
+  padding-left: 24px;
+  display: none;
+  flex-direction: column;
+}
+.dropdown.open .dropdown-items {
+  display: flex;
+}
+.dropdown-items a {
+  font-size: 0.95em;
+  color: #ccc;
 }
