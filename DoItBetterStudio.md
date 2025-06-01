@@ -24,6 +24,8 @@ A Viking-era open-world narrative RPG that blends brutal realism with cutting-ed
 ![Echo Concept Art](echo.png)
 </div>
 
+---
+
 ### Blood Runs Red
 
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; align-items: center; margin: 2rem 0;">
