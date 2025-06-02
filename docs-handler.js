@@ -1,7 +1,16 @@
-const linksContainer = document.getElementById("nav-links");
+const linksContainer = document.body;
 const content = document.getElementById("content");
 const searchInput = document.getElementById("search-input");
 const searchResults = document.getElementById("search-results");
+
+document.querySelectorAll('.dropdown-header').forEach(header => {
+  header.addEventListener('click', () => {
+    document.querySelectorAll('.dropdown').forEach(drop => {
+      if (drop !== header.parentElement) drop.classList.remove('open');
+    });
+    header.parentElement.classList.toggle('open');
+  });
+});
 
 // Load Markdown content function
 async function loadMarkdown(file, scrollToId) {
@@ -66,6 +75,9 @@ function clearSearchResults() {
 // Handle sidebar navigation clicks
 linksContainer.addEventListener("click", (e) => {
   if (e.target.tagName !== "A") return;
+
+  if (e.target.hasAttribute("data-file") !== true) return;
+
   e.preventDefault();
   const file = e.target.getAttribute("data-file");
   setActiveLink(e.target);
@@ -155,7 +167,12 @@ searchResults.addEventListener("click", (e) => {
     const sectionId = e.target.dataset.sectionId || "";
     clearSearchResults();
     searchInput.value = "";
-    setActiveLink(null);
+
+    const sidebarLink = [...linksContainer.querySelectorAll("a")].find(
+      (a) => a.getAttribute("data-file") === file
+    );
+    setActiveLink(sidebarLink);
+
     loadMarkdown(file, sectionId);
   }
 });

@@ -1,6 +1,6 @@
 <div style="text-align: center; margin: 2rem 0;">
 
-### Welcome to DoItBetter Studio
+# Welcome to DoItBetter Studio
 
 <img src="logo.png" alt="DoItBetter Studio Logo" style="max-width: 100%; height: auto;" />
 
@@ -35,9 +35,10 @@ A Viking-era open-world narrative RPG that blends brutal realism with cutting-ed
 ![Blood Runs Red Concept Art](blood-art.png)
 
 <div>
+
 A gritty 16-player co-op survival FPS set in an alternate 1989 where the USSR invades the US. Inspired by *Red Dawn*, it features authentic period weapons, dynamic missions, and deep narrative about young Americans fighting for their homeland.
 
-*Full details and dev logs available on the [Blood Runs Red project page](BloodRunsRed.md).*
+*Full details and dev logs available on the <a href="#" data-file="BloodRunsRed.md">Blood Runs Red</a>.*
 </div>
 
 </div>
